@@ -30,7 +30,7 @@ class MainScreen extends StatelessWidget {
                       child: HomeScreen(),
                     );
                   } else if (controller.activeTabIndex == 1) {
-                    return const Center(
+                    return Center(
                       child: SearchScreen(),
                     );
                   } else if (controller.activeTabIndex == 2) {
