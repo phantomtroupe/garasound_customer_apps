@@ -34,11 +34,11 @@ class MainScreen extends StatelessWidget {
                       child: SearchScreen(),
                     );
                   } else if (controller.activeTabIndex == 2) {
-                    return const Center(
+                    return Center(
                       child: CartScreen(),
                     );
                   }else if (controller.activeTabIndex == 3) {
-                    return const ProfileScreen();
+                    return ProfileScreen();
                   }else{
                     return Container();
                   }
